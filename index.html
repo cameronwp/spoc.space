@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <title>SPOC</title>
+</head>
+<body>
+    <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <span class="font-semibold text-xl tracking-tight">SPOC</span>
+        </div>
+        <div class="block lg:hidden">
+            <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+            </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+            <div class="text-sm lg:flex-grow">
+            <a href="#team" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Team
+            </a>
+            <a href="#publications" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Publications
+            </a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto p-6">
+        <div>
+            SPOC is a collaboration between NASA JSC and academic partners to study the physical and operation requirements for extravehicular activity (EVA) operations on planetary surfaces.
+        </div>
+        <p id="team" class="text-4xl">Team</p>
+        <div class="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+
+            <div>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div class="w-full">
+                        <img class="w-full" src="./images/matthew_miller.png" alt="Matthew Miller headshot">
+                    </div>
+                    <div class="px-4 py-4">
+                        <p class="text-2xl">Matthew Miller</p>
+                        <div class="w-full">
+                            <div class="">
+                                Dr. Miller has 6 years of experience working with certified EVA flight controllers in Houston, Texas where he has gained operational insight and knowledge of the operational constraints of conducting human EVA, based on direct observation and interaction with subject-matter-experts. His research specifically focuses on advancing present-day tools, technologies and techniques to make them applicable for future deep-space EVA exploration as the EVA Operations System (EVA Mission System Software) product manager. He currently resides with JSC-XI and collaborates extensively with JSC-SK and other JSC/Ames/Goddard teams.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div class="w-full">
+                        <img class="w-full" src="./images/leia_stirling.png" alt="Leia Stirling headshot">
+                    </div>
+                    <div class="px-4 py-4">
+                        <p class="text-2xl">Leia Stirling</p>
+                        <div class="w-full">
+                            <div class="">
+                                Leia Stirling is an Associate Professor in Industrial and Operations Engineering at the University of Michigan, a Core Faculty in the Center for Ergonomics, and an Affiliate Faculty in the Robotics Institute. Her research quantifies human performance and human-machine fluency to assess performance augmentation, advance exoskeleton control algorithms, mitigate injury risk, and provide relevant feedback to subject matter experts across domains. She received her B.S. (2003) and M.S. (2005) in Aeronautical and Astronautical Engineering from the University of Illinois at Urbana-Champaign, and her Ph.D. (2008) in Aeronautics and Astronautics from MIT. She was a postdoctoral researcher at Boston Children’s Hospital and Harvard Medical School (2008-2009), on the Advanced Technology Team at the Wyss Institute for Biologically Inspired Engineering (2009-2012), then an Assistant Professor at MIT (2013 – 2019). She joined the faculty at the University of Michigan in 2019.
+                            </div>
+                        </div>
+            </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div class="w-full">
+                        <img class="w-full" src="./images/kj_kim.png" alt="KJ Kim headshot">
+                    </div>
+                    <div class="px-4 py-4">
+                        <p class="text-2xl">KJ Kim</p>
+                        <div class="w-full">
+                            <div class="">
+                                Dr. Kim is a Human Performance Data Engineer, working for the H-3PO Laboratory at NASA Johnson Space Center. Dr. Kim performs research and provide operational expertise in several technical areas, including Exercise Physiology & Performance and Space Suits & Exploration Operations, to assess health and performance for astronauts on the International Space Station and for future human exploration missions. As a member of the Data & Software Team, he provides data analysis and software engineering support for tasks outlined in the Integrated Extravehicular Activity Human Research Plan and the Exercise and Performance Strategic Roadmap.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg">
+                    <div class="w-full">
+                        <img class="w-full" src="./images/cameron_pittman.jpg" alt="Cameron Pittman headshot">
+                    </div>
+                    <div class="px-4 py-4">
+                        <p class="text-2xl">Cameron Pittman</p>
+                        <div class="w-full">
+                            <div class="">
+                                Cameron Pittman is a human spaceflight software engineer and researcher at Johnson Space Center (JSC) under the Exploration, Integration and Science Directorate. He designs and develops decision support systems to augment the safety and efficiency of EVA crew and operators. His past work includes the decision support systems used by astronauts and scientists at BASALT Hawaii 2016, NEEMO 22, NEEMO 23, and various VR EVA analogs on-site at JSC. Cameron's technical areas of expertise include web-based platform development, autonomy and decision making algorithms, cloud networking, and general Linux hacking. In his spare-time, Cameron is studying AI at MIT. He holds a masters in teaching (2011) from Belmont University and a bachelors in physics (2009) from Vanderbilt University.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <p id="Publications" class="text-4xl">Publications</p>
+        <h4>Lunar and Planetary Science Conference (LPSC) Poster 2019</h4>
+        <object data="./LPSC_SPOC_poster.pdf" type="application/pdf" width="700px" height="700px">
+            <embed src="./LPSC_SPOC_poster.pdf">
+                <p>This browser does not support PDFs. Please download the PDF to view it: <a href="./LPSC_SPOC_poster.pdf">Download PDF</a>.</p>
+            </embed>
+        </object>
+    </div>
+</body>
+</html>
