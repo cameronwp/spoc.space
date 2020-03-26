@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-    <title>SPOC</title>
+    <title>SPOC | Scientific Physical and Operational Characterization</title>
 </head>
 <body>
     <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-            <span class="font-semibold text-xl tracking-tight">SPOC</span>
+            <span class="font-semibold text-xl tracking-tight"><a href="#">SPOC</a></span>
         </div>
         <div class="block lg:hidden">
             <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
@@ -21,6 +21,9 @@
             <a href="#team" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                 Team
             </a>
+            <a href="#methodology" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                Methodology
+            </a>
             <a href="#publications" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                 Publications
             </a>
@@ -29,9 +32,9 @@
     </nav>
     <div class="container mx-auto p-6">
         <div>
-            SPOC is a collaboration between NASA JSC and academic partners to study the physical and operation requirements for extravehicular activity (EVA) operations on planetary surfaces.
+            Scientific Physical and Operational Characterization (SPOC) is a collaboration between NASA JSC and academic partners to study the physical and operation requirements for extravehicular activity (EVA) operations on planetary surfaces.
         </div>
-        <p id="team" class="text-4xl">Team</p>
+        <div id="team" class="text-4xl mt-4">Team</div>
         <div class="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
 
             <div>
@@ -62,7 +65,7 @@
                                 Leia Stirling is an Associate Professor in Industrial and Operations Engineering at the University of Michigan, a Core Faculty in the Center for Ergonomics, and an Affiliate Faculty in the Robotics Institute. Her research quantifies human performance and human-machine fluency to assess performance augmentation, advance exoskeleton control algorithms, mitigate injury risk, and provide relevant feedback to subject matter experts across domains. She received her B.S. (2003) and M.S. (2005) in Aeronautical and Astronautical Engineering from the University of Illinois at Urbana-Champaign, and her Ph.D. (2008) in Aeronautics and Astronautics from MIT. She was a postdoctoral researcher at Boston Children’s Hospital and Harvard Medical School (2008-2009), on the Advanced Technology Team at the Wyss Institute for Biologically Inspired Engineering (2009-2012), then an Assistant Professor at MIT (2013 – 2019). She joined the faculty at the University of Michigan in 2019.
                             </div>
                         </div>
-            </div>
+                    </div>
                 </div>
             </div>
 
@@ -97,10 +100,12 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
-        <p id="Publications" class="text-4xl">Publications</p>
+        <div id="methodology" class="text-4xl mt-4">Methodology</div>
+        <div>Field Science Observations</div>
+
+        <div id="Publications" class="text-4xl mt-4">Publications</div>
         <h4>Lunar and Planetary Science Conference (LPSC) Poster 2019</h4>
         <object data="./LPSC_SPOC_poster.pdf" type="application/pdf" width="700px" height="700px">
             <embed src="./LPSC_SPOC_poster.pdf">
@@ -108,5 +113,52 @@
             </embed>
         </object>
     </div>
+
+    <!-- <div class="bg-gray-100 w-full p-8">
+        <div class="sm:flex mx-auto mb-4">
+            <div class="sm:w-1/4 h-auto">
+                <div class="text-orange mb-2">Orange</div>
+                <ul class="list-reset leading-normal">
+                    <li class="hover:text-orange text-grey-darker">One</li>
+                    <li class="hover:text-orange text-grey-darker">Two</li>
+                    <li class="hover:text-orange text-grey-darker">Three</li>
+                    <li class="hover:text-orange text-grey-darker">Four</li>
+                    <li class="hover:text-orange text-grey-darker">Five</li>
+                    <li class="hover:text-orange text-grey-darker">Six</li>
+                    <li class="hover:text-orange text-grey-darker">Seven</li>
+                    <li class="hover:text-orange text-grey-darker">Eight</li>
+                </ul>
+            </div>
+            <div class="sm:w-1/4 h-auto sm:mt-0 mt-8">
+                <div class="text-blue mb-2">Blue</div>
+                <ul class="list-reset leading-normal">
+                    <li class="hover:text-blue text-grey-darker">One</li>
+                    <li class="hover:text-blue text-grey-darker">Two</li>
+                    <li class="hover:text-blue text-grey-darker">Three</li>
+                </ul>
+                <div class="text-blue-light mb-2 mt-4">Blue-light</div>
+                <ul class="list-reset leading-normal">
+                    <li class="hover:text-blue-light text-grey-darker">One</li>
+                    <li class="hover:text-blue-light text-grey-darker">Two</li>
+                    <li class="hover:text-blue-light text-grey-darker">Three</li>
+                </ul>
+            </div>
+            <div class="sm:w-1/4 h-auto sm:mt-0 mt-8">
+                        <div class="text-green-dark mb-2">Green-dark</div>
+                <ul class="list-reset leading-normal">
+                    <li class="hover:text-green-dark text-grey-darker">One</li>
+                    <li class="hover:text-green-dark text-grey-darker">Two</li>
+                    <li class="hover:text-green-dark text-grey-darker">Three</li>
+                </ul>
+
+                <div class="text-green-light mb-2 mt-4">Green-light</div>
+                <ul class="list-reset leading-normal">
+                    <li class="hover:text-green-light text-grey-darker">One</li>
+                    <li class="hover:text-green-light text-grey-darker">Two</li>
+                    <li class="hover:text-green-light text-grey-darker">Three</li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
 </body>
 </html>
